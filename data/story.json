@@ -2,43 +2,44 @@
   "parts": [
     {
       "id": 0,
-      "name": "Your journey begins",
-      "image": "step-0.jpg",
-      "text": "As you step through the mystical portal, the air crackles with magic, and you find yourself standing in a breathtaking landscape of Eldoria. The sky is painted with hues unknown to your world, and fantastical creatures roam in the distance. Before you stretches a path leading to the heart of the realm. As you begin your journey, an ancient figure appears before you. 'Greetings, traveler! In Eldoria, you'll face challenges beyond your wildest imagination. But fear not, for you may choose a weapon to aid you on your quest.'",
+      "name": "Your journey begins [PLAYER]",
+      "image": "Island2.0.jpg",
+      "text": "As the sun dipped below the horizon, casting an ethereal glow over the restless waves, a lone adventurer found themselves marooned on a mysterious island. The air was thick with an otherworldly aura, as if the very land held secrets whispered through the rustling leaves of ancient trees. Towering cliffs loomed like silent sentinels, guarding the island's enigmatic heart. Intrigued and undeterred, the adventurer navigated through a dense jungle, where exotic flora painted the landscape in hues unseen elsewhere. Strange sounds echoed from the shadows, hinting at unseen inhabitants or perhaps the island's own mystical voice. Each step carried a sense of anticipation, as if the very ground beneath their feet held the key to unraveling the island's secrets. The air was filled with a mixture of excitement and trepidation, for every discovery only deepened the mystery, leaving the adventurer to wonder what untold wonders or dangers awaited them in this uncharted realm.",
       "options": [
         {
-          "text": "Select the Enchanted Sword",
+          "text": "Explore the Caverns",
           "path": "select_sword",
           "target": 1
         },
         {
-          "text": "Choose the Elemental Staff",
+          "text": "Follow the Enigmatic Glow",
           "path": "select_staff",
           "target": 2
-        },
-        {
-          "text": "Opt for the Arcane Bow",
-          "path": "select_bow",
-          "target": 3
         }
       ]
     },
     {
       "id": 1,
       "name": "Part 2",
-      "text": "This is part 2",
+      "text": "A narrow entrance revealed a series of mysterious caverns leading into the heart of the island. You see a small island in the middle of the lake and you see a small entrance on the top of the small island. Will you go in to the entrance?",
+      "image": "Cave.jpg",
       "options": [
         {
           "id": 2,
-          "text": "Go back to start",
+          "text": "Go through the entrance",
+          "target": 0
+        },
+        {
+          "id": 2,
+          "text": "Go back to the top agian",
           "target": 0
         }
       ]
     },
     {
       "id": 2,
-      "name": "Part 3",
-      "text": "This is part 3",
+      "name": "Part 2",
+      "text": "A soft, mystical glow emanated from a distant grove, drawing your attention. It hinted at the presence of an otherworldly phenomenon or perhaps a source of magical energy. Will you follow the glow, curious to unveil the source and its potential impact on your journey?",
       "options": [
         {
           "id": 4,
