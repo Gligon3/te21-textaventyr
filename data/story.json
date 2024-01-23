@@ -24,7 +24,7 @@
       "text": "A narrow entrance revealed a series of mysterious caverns leading into the heart of the island. You see a small island in the middle of the lake and you see a small entrance on the top of the small island. Will you go in to the entrance?",
       "image": "Cave.jpg",
       "options": [
-        {
+        { 
           "id": 3,
           "text": "Go through the entrance",
           "target": 3
