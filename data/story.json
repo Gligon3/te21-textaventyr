@@ -25,14 +25,9 @@
       "image": "Cave.jpg",
       "options": [
         {
-          "id": 2,
+          "id": 3,
           "text": "Go through the entrance",
-          "target": 0
-        },
-        {
-          "id": 2,
-          "text": "Go back to the top agian",
-          "target": 0
+          "target": 3
         }
       ]
     },
@@ -41,11 +36,6 @@
       "name": "Part 2",
       "text": "A soft, mystical glow emanated from a distant grove, drawing your attention. It hinted at the presence of an otherworldly phenomenon or perhaps a source of magical energy. Will you follow the glow, curious to unveil the source and its potential impact on your journey?",
       "options": [
-        {
-          "id": 4,
-          "text": "Go back to part 2",
-          "target": 1
-        }
       ]
     }
   ]
